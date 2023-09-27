@@ -23,4 +23,7 @@ public class Sorter {
             System.out.print(arr[i] + " ");
         System.out.println();
     }
+    public static void sort(int array[]) {
+        selectionSort(array);
+    }
 }
